@@ -19,7 +19,7 @@ const pickOne = () => {
         {
             type: 'list',
             name: 'Employee role',
-            message: 'What is the persons role in this comoany?',
+            message: 'What is the persons role in this company?',
             choices: ['Engineer', 'Intern', 'Manager', 'No more employees']
         }
     ]).then(workers => {
