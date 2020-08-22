@@ -65,7 +65,7 @@ const pickTwo = () => {
                 {
                     type: 'input',
                     name: 'School Name',
-                    message: "What is the school name of an intern"
+                    message: "What is the school?"
                 }
             ]).then(sponsor => {
                 console.log(sponsor);
